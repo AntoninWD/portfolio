@@ -25,21 +25,21 @@ const container = document.querySelector(".about__container");
 //
 before.addEventListener("click", function () {
   container.innerHTML = ` <div  class="about__item">
-  <img class="about__item--img" src="img/html.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/html.png" alt="">
   <p>HTML</p>
 </div>
 <div class="about__item">
-  <img class="about__item--img" src="img/css-3.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/css-3.png" alt="">
   <p>CSS</p>
 </div>
 
 <div class="about__item">
-  <img class="about__item--img" src="img/sass.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/sass.png" alt="">
   <p>SASS</p>
 </div>
 
 <div class="about__item">
-  <img class="about__item--img" src="img/javascript.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/javascript.png" alt="">
   <p>JavaScript</p>
 </div>`;
 
@@ -51,12 +51,12 @@ before.addEventListener("click", function () {
 now.addEventListener("click", function () {
   container.innerHTML = ` 
    <div class="about__item">
-     <img class="about__item--img" src="img/atom.png" alt="">
+     <img loading="lazy" class="about__item--img" src="img/atom.png" alt="">
      <p>React</p>
    </div>
                                
    <div class="about__item">
-    <img class="about__item--img" src="img/git.png" alt="">
+    <img loading="lazy" class="about__item--img" src="img/git.png" alt="">
     <p>Git</p>
    </div>`;
   now.classList.add("about__head--active");
@@ -68,20 +68,20 @@ future.addEventListener("click", function () {
   container.innerHTML = ` 
 
 <div class="about__item">
-  <img class="about__item--img" src="img/wordpress.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/wordpress.png" alt="">
   <p>WP</p>
 </div>
 <div class="about__item">
-  <img class="about__item--img" src="img/typescript.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/typescript.png" alt="">
   <p>TypeScript</p>
 </div>
 <div class="about__item">
-  <img class="about__item--img" src="img/nodejs.png" alt="">
+  <img loading="lazy" class="about__item--img" src="img/nodejs.png" alt="">
   <p>Node</p>
 </div>
 
 <div class="about__item">
-  <img class="about__item--img mongo" src="img/mongo2.png" alt="">
+  <img loading="lazy" class="about__item--img mongo" src="img/mongo2.png" alt="">
   <p>MongoDB</p>
 </div> `;
   now.classList.remove("about__head--active");

@@ -36,6 +36,10 @@ body {
   background-color: #1c2335;
 }
 
+.logo {
+  width: 1.5rem;
+}
+
 .background {
   background-size: cover;
   background-position: right bottom;
@@ -403,10 +407,6 @@ body {
   width: 8rem;
   text-align: center;
   text-decoration: none;
-}
-
-.mongo {
-  width: 2rem;
 }
 
 .wave2 {

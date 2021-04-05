@@ -41,6 +41,10 @@ body {
   background-color: $color-blue;
 }
 
+.logo {
+  width: 1.5rem;
+}
+
 .background {
   background-size: cover;
   background-position: right bottom;
@@ -314,9 +318,6 @@ body {
       text-decoration: none;
     }
   }
-}
-.mongo {
-  width: 2rem;
 }
 
 .wave2 {
