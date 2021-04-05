@@ -239,7 +239,7 @@ body {
     margin: 5rem 0;
     line-height: 2;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   &__head {
@@ -669,6 +669,9 @@ body {
   background: $color-blue;
   text-align: center;
   padding: 5rem 10% 2rem;
+  @media only screen and(max-width: $mobile-media) {
+    padding: 5rem 10% 10rem;
+  }
 
   &__container {
     display: grid;
