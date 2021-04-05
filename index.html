@@ -17,19 +17,25 @@
           <img class="header__img" src="img/code.png" alt="" />
         </div>
 
+        <button class="burger-container">
+          <div class="burger-container--bar"></div>
+          <div class="burger-container--bar"></div>
+          <div class="burger-container--bar"></div>
+        </button>
+
         <nav class="nav">
           <ul class="nav">
             <li class="nav__item">
-              <a class="nav__item--anchor" href="">HOME</a>
+              <a class="home-nav nav__item--anchor" href="">HOME</a>
             </li>
             <li class="nav__item">
-              <a class="nav__item--anchor" href="">ABOUT</a>
+              <a class="about-nav nav__item--anchor" href="">ABOUT</a>
             </li>
             <li class="nav__item">
-              <a class="nav__item--anchor" href="">PROJECTS</a>
+              <a class="project-nav nav__item--anchor" href="">PROJECTS</a>
             </li>
             <li class="nav__item">
-              <a class="nav__item--anchor" href="">CONTACT</a>
+              <a class=" contact-nav nav__item--anchor" href="">CONTACT</a>
             </li>
           </ul>
         </nav>
@@ -50,12 +56,29 @@
           <span class="orange">D</span>eveloper
         </h3>
         <div>
-          <button class="btn">HIRE ME</button>
-          <button class="btn">CV</button>
+          
+          <form class="btn__cv"  method="get" action="img/AntoninWd.docx">
+            <button class="btn btn__cv--btn" type="submit" class="btn">CV</button>
+          </form>
+          <div class="intro__socials">
+            <a href="https://www.linkedin.com/in/antonin-arsenault-38380914a/">
+              <img class="intro__socials--img" src="img/linkedin (1).png" alt="">
+            </a>
+            <a href="https://github.com/antoninWD">
+              <img class="intro__socials--img" src="img/github (1).png" alt="">
+            </a>
+           
+            <a href="mailto:webmaster@anto94@live.ca">
+              <img class="intro__socials--img" src="img/email.png" alt="">
+            </a>
+            <a href="tel:4508220059">
+              <img class="intro__socials--img" src="img/phone-call.png" alt="">
+            </a>
+          </div>
+      
         </div>
       </div>
-      </div>
-
+      
       <svg
       class="wave-top"
       xmlns="http://www.w3.org/2000/svg"
@@ -74,11 +97,13 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#2c2c2c"
+            fill="#1c2335"
             fill-opacity="1"
             d="M0,128L48,138.7C96,149,192,171,288,197.3C384,224,480,256,576,245.3C672,235,768,181,864,138.7C960,96,1056,64,1152,74.7C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
+      </div>
+
       </section>
 
     <section class="about">
@@ -88,13 +113,13 @@
         <p class="about__description"> A frontend developer from Mirabel,Quebec who enjoys problem solving to create effective interface and application. My goals are to grow in a company where I can bring value and grow my passion.
       </p>
       <div class="about__container--head">
-        <h4  class="about__head before  about__head--active">Im good with</h4>
-        <h4 class="about__head now">Im Learning</h4>
-        <h4 class="about__head futur">I want to learn</h4>
+        <h4 class="about__head before  about__head--active">Im confident with</h4>
+        <h4 class="about__head now">Currently Learning</h4>
+        <h4 class="about__head future">I want to learn</h4>
       </div>
      <div class="about__container">
       
-      <div  class="about__item">
+      <div class="about__item">
         <img class="about__item--img" src="img/html.png" alt="">
         <p>HTML</p>
       </div>
@@ -112,11 +137,8 @@
         <img class="about__item--img" src="img/javascript.png" alt="">
         <p>JavaScript</p>
       </div>
-     </div>
-    </div>
-     
-     
-      
+
+
       <!-- <div>
         <img src="img/atom.png" alt="">
         <p>React</p>
@@ -139,26 +161,46 @@
         <img src="img/mongo2.png" alt="">
         <p>MongoDB</p>
       </div> -->
+     </div>
+    </div>
+
+    <div class="about__certification">
+     <h3 class="about__certification--title">My certifications</h3>
+     <div class="about__certification--content">
+      <p>The Complete JavaScript Course 2021: From Zero to Expert!</p>
+      <a href="https://www.udemy.com/certificate/UC-17747e6b-4980-43bb-9cc7-43bf9798b215/" class="btn about__certification--btn">LINK</a>
+     </div>
+     
+     <div class="about__certification--content">
+      <p>CSS - The Complete Guide 2021 (incl. Flexbox, Grid & Sass)</p>
+      <a href="https://www.udemy.com/certificate/UC-34e1d8d7-c1e0-4e78-bb33-7b80d7871c28/" class="btn about__certification--btn">LINK</a>
+     </div>
+
+    </div>
+     
+     
+      
+      
       <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#2c2c2c" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,58.7C672,53,768,107,864,160C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        <path fill="#1c2335" fill-opacity="1" d="M0,320L48,282.7C96,245,192,171,288,128C384,85,480,75,576,101.3C672,128,768,192,864,218.7C960,245,1056,235,1152,208C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
       </svg>
       <svg class="wave2-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fd7a34" fill-opacity="0.6" d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,58.7C672,53,768,107,864,160C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        <path fill="#fd7a34" fill-opacity="0.6" d="M0,320L48,282.7C96,245,192,171,288,128C384,85,480,75,576,101.3C672,128,768,192,864,218.7C960,245,1056,235,1152,208C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
       </svg>
     </section>
     <section class="project">
-      <div class="project__head">`
+      <div class="project__head">
         <h2 class="project__title">MY PROJECTS</h2>
         <div class="border"></div>
       </div>
         
-      <div class="project__first">
+      <div class="project__container">
         <div class="project__img">
-          
+          <img class="project__img--img" src="img/Allify.png" alt="allify">
         </div>
         <div class="project__description">
           <h4 class="project__description--title">Allify</h4>
-          <p class="project__description--text"></p>
+          <p class="project__description--text">An application that help students to study with some tools like a To-Do List, a Pomodoro Timer, live real time and more!</p>
         </div>
              <div class="project__tech">
               <img class="project__tech--img" src="img/html.png" alt="">
@@ -167,14 +209,158 @@
               <img class="project__tech--img" src="img/javascript.png" alt="">
              </div>
               <div class="project__buttons"> 
-               <button class="btn project__btn">CODE</button>
-               <button class="btn project__btn"">LINK</button>
+               <a href="https://github.com/AntoninWD/Allify" class="btn project__btn">CODE</a>
+               <a href="https://allify.netlify.app/" class="btn project__btn">LINK</a>
              </div>
       </div>
 
+      <div class="project__container right__container">
+        <div class="right__img">
+          <img class="right__img--img" src="img/onpoint.png" alt="onpoint">
+        </div>
+        <div class="right__description">
+          <h4 class="project__description--title">Onpoint</h4>
+          <p class="project__description--text">A steak timer which you can choose your steak thickness and cooking type and that will render a timer for both side with the time needed to make your steak onpoint!</p>
+        </div>
+             <div class="right__tech">
+              <img class="project__tech--img" src="img/javascript.png" alt="">
+              <img class="project__tech--img" src="img/sass.png" alt="">
+              <img class="project__tech--img" src="img/css-3.png" alt="">
+              <img class="project__tech--img" src="img/html.png" alt="">
+              
+              
+              
+             </div>
+              <div class="right__buttons"> 
+                <a href="https://onpoint-app.netlify.app" class="btn project__btn">LINK</a>
+               <a href="https://github.com/AntoninWD/Onpoint" class="btn project__btn">CODE</a>
+               
+             </div>
+      </div>
+
+      <div class="project__container">
+        <div class="project__img">
+          <img class="project__img--img" src="img/forkify.png" alt="forkify">
+        </div>
+        <div class="project__description">
+          <h4 class="project__description--title">Forkify</h4>
+          <p class="project__description--text">A recipe application with an API which you can search a recipe based on keywords. You can bookmarks them, create a recipe and change portion. This app was done in my javascript course and we did it with an MVC architecture.</p>
+        </div>
+             <div class="project__tech">
+              <img class="project__tech--img" src="img/html.png" alt="">
+              <img class="project__tech--img" src="img/css-3.png" alt="">
+              <img class="project__tech--img" src="img/sass.png" alt="">
+              <img class="project__tech--img" src="img/javascript.png" alt="">
+             </div>
+              <div class="project__buttons"> 
+               <a href="https://github.com/AntoninWD/forkify-app" class="btn project__btn">CODE</a>
+               <a href="https://forkify-antonin.netlify.app" class="btn project__btn">LINK</a>
+             </div>
+      </div>
+
+      <div class="project__container right__container">
+        <div class="right__img">
+          <img class="right__img--img" src="img/huddle.png" alt="onpoint">
+        </div>
+        <div class="right__description">
+          <h4 class="project__description--title">Huddle</h4>
+          <p class="project__description--text">Huddle is a challenge that i've done on frontendmentor.io, my goal was to practice my HTML, CSS and follow a model.</p>
+        </div>
+             <div class="right__tech">
+              <img class="project__tech--img" src="img/css-3.png" alt="">
+              <img class="project__tech--img" src="img/html.png" alt="">
+              
+              
+              
+             </div>
+              <div class="right__buttons"> 
+                <a href="https://antoninwd.github.io/huddle-project/" class="btn project__btn">LINK</a>
+               <a href="https://github.com/AntoninWD/huddle-project" class="btn project__btn">CODE</a>
+               
+             </div>
+      </div>
+
+      <svg class="wave3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1c2335" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,154.7C560,107,640,53,720,42.7C800,32,880,64,960,85.3C1040,107,1120,117,1200,101.3C1280,85,1360,43,1400,21.3L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+      </svg>
+      <svg class="wave3-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fd7a34" fill-opacity="0.6" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,154.7C560,107,640,53,720,42.7C800,32,880,64,960,85.3C1040,107,1120,117,1200,101.3C1280,85,1360,43,1400,21.3L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+      </svg>
     </section>
     <section class="contact">
-      <h2>CONTACT ME</h2>
+      
+ 
+      <div class="contact__container">
+        <h2 class="contact__title">CONTACT ME</h2>
+        <div class="border contact__title--border"></div>
+     
+        <div class="contact__social">
+          <a href="https://www.linkedin.com/in/antonin-arsenault-38380914a/" class="contact__social--anchor" href="">LinkedIn</a>
+          <img class="contact__social--img" src="img/linkedin (1).png" alt="linkedin">
+          
+        </div>
+        <div class="contact__social">
+          <a href="https://github.com/antoninWD" class="contact__social--anchor" href="">Github</a>
+          <img class="contact__social--img" src="img/github (1).png" alt="github">
+          
+        </div>
+        <div class="contact__social">
+          <a href="mailto:webmaster@anto94@live.ca" class="contact__social--anchor" href="">anto94@live.ca</a>
+          <img class="contact__social--img" src="img/email.png" alt="email">
+         
+        </div>
+
+        <div class="contact__social">
+          <a href="tel:4508220059" class="contact__social--anchor" href="">450-822-0059</a>
+          <img class="contact__social--img" src="img/phone-call.png" alt="phone">
+         
+        </div>
+      </div>
+       <div class="contact__link">
+          <h2 class="contact__link--title">SITE LINKS</h2>
+          <div class="border contact__border"></div>
+          <nav>
+            <ul class="nav contact__nav">
+              <li class="nav__item contact__nav--item"> 
+                <a class="home-nav nav__item--anchor " href="">HOME</a>
+              </li>
+              <li class="nav__item contact__nav--item">
+                <a class="about-nav nav__item--anchor " href="">ABOUT</a>
+              </li>
+              <li class="nav__item contact__nav--item">
+                <a class="project-nav nav__item--anchor " href="">PROJECTS</a>
+              </li>
+              <li class="nav__item contact__nav--item">
+                <a class="contact-nav nav__item--anchor " href="">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        
+     
     </section>
+
+
+    <div class="modal hide">
+      <button class="modal__close">X</button>
+      <nav class="modal__nav">
+        <ul class="modal__ul">
+          <li class="modal__list">
+            <a class="home-nav modal__anchor" href="">HOME</a>
+          </li>
+          <li class="modal__list">
+            <a class="about-nav modal__anchor" href="">ABOUT</a>
+          </li>
+          <li class="modal__list">
+            <a class="project-nav modal__anchor" href="">PROJECTS</a>
+          </li>
+          <li class="modal__list">
+            <a class="contact-nav modal__anchor" href="">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="overlay hide"></div>
   </body>
 </html>
