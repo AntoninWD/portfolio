@@ -44,6 +44,9 @@ body {
 .logo {
   width: 1.5rem;
 }
+.mongo {
+  height: 1.35rem;
+}
 
 .background {
   background-size: cover;
@@ -283,7 +286,7 @@ body {
       width: 70%;
     }
     @media only screen and (max-width: $mobile-media) {
-      width: 37rem;
+      width: 40rem;
     }
   }
 

@@ -24,24 +24,26 @@ const future = document.querySelector(".future");
 const container = document.querySelector(".about__container");
 //
 before.addEventListener("click", function () {
-  container.innerHTML = ` <div  class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/html.png" alt="">
-  <p>HTML</p>
-</div>
-<div class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/css-3.png" alt="">
-  <p>CSS</p>
-</div>
+  container.innerHTML = ` 
+  <div class="about__item">
+    <img loading=lazy class="about__item--img" src="img/html.png" alt="">
+    <p>HTML</p>
+  </div>
+  <div class="about__item">
+    <img loading=lazy class="about__item--img" src="img/css-3.png" alt="">
+    <p>CSS(SASS)</p>
+  </div>
 
-<div class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/sass.png" alt="">
-  <p>SASS</p>
-</div>
+ 
+  <div class="about__item">
+    <img loading=lazy class="logo about__item--img" src="img/javascript.png" alt="">
+    <p>JavaScript</p>
+  </div>
 
-<div class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/javascript.png" alt="">
-  <p>JavaScript</p>
-</div>`;
+  <div class="about__item">
+    <img loading="lazy" class="about__item--img" src="img/atom.png" alt="">
+    <p>React</p>
+  </div>`;
 
   now.classList.remove("about__head--active");
   future.classList.remove("about__head--active");
@@ -52,13 +54,9 @@ now.addEventListener("click", function () {
   container.innerHTML = ` 
    <div class="about__item">
      <img loading="lazy" class="about__item--img" src="img/atom.png" alt="">
-     <p>React</p>
+     <p>React(advanced & redux)</p>
    </div>
-                               
-   <div class="about__item">
-    <img loading="lazy" class="about__item--img" src="img/git.png" alt="">
-    <p>Git</p>
-   </div>`;
+                               `;
   now.classList.add("about__head--active");
   future.classList.remove("about__head--active");
   before.classList.remove("about__head--active");
