@@ -53,8 +53,16 @@ before.addEventListener("click", function () {
 now.addEventListener("click", function () {
   container.innerHTML = ` 
    <div class="about__item">
-     <img loading="lazy" class="about__item--img" src="img/atom.png" alt="">
-     <p>React(advanced & redux)</p>
+     <img loading="lazy" class="about__item--img" src="img/wordpress.png" alt="">
+     <p>WordPress</p>
+   </div>
+   <div class="about__item">
+     <img loading="lazy" class="about__item--img" src="img/php.png" alt="">
+     <p>PHP</p>
+   </div>
+   <div class="about__item">
+     <img loading="lazy" class="about__item--img" src="img/mysql.png" alt="">
+     <p>MYSQL</p>
    </div>
                                `;
   now.classList.add("about__head--active");
@@ -65,10 +73,6 @@ now.addEventListener("click", function () {
 future.addEventListener("click", function () {
   container.innerHTML = ` 
 
-<div class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/wordpress.png" alt="">
-  <p>WP</p>
-</div>
 <div class="about__item">
   <img loading="lazy" class="about__item--img" src="img/typescript.png" alt="">
   <p>TypeScript</p>
