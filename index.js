@@ -52,18 +52,12 @@ before.addEventListener("click", function () {
 
 now.addEventListener("click", function () {
   container.innerHTML = ` 
-   <div class="about__item">
-     <img loading="lazy" class="about__item--img" src="img/wordpress.png" alt="">
-     <p>WordPress</p>
-   </div>
-   <div class="about__item">
-     <img loading="lazy" class="about__item--img" src="img/php.png" alt="">
-     <p>PHP</p>
-   </div>
-   <div class="about__item">
-     <img loading="lazy" class="about__item--img" src="img/mysql.png" alt="">
-     <p>MYSQL</p>
-   </div>
+
+  <div class="about__item">
+  <img loading="lazy" class="about__item--img" src="img/typescript.png" alt="">
+  <p>TypeScript</p>
+</div>
+ 
                                `;
   now.classList.add("about__head--active");
   future.classList.remove("about__head--active");
@@ -74,18 +68,19 @@ future.addEventListener("click", function () {
   container.innerHTML = ` 
 
 <div class="about__item">
-  <img loading="lazy" class="about__item--img" src="img/typescript.png" alt="">
-  <p>TypeScript</p>
-</div>
-<div class="about__item">
   <img loading="lazy" class="about__item--img" src="img/nodejs.png" alt="">
-  <p>Node</p>
+  <p>Node.js</p>
 </div>
 
 <div class="about__item">
   <img loading="lazy" class="about__item--img mongo" src="img/mongo2.png" alt="">
   <p>MongoDB</p>
-</div> `;
+</div> 
+<div class="about__item">
+<img loading="lazy" class="about__item--img" src="img/mysql.png" alt="">
+<p>MYSQL</p>
+</div>
+`;
   now.classList.remove("about__head--active");
   future.classList.add("about__head--active");
   before.classList.remove("about__head--active");
