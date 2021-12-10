@@ -43,7 +43,14 @@ before.addEventListener("click", function () {
   <div class="about__item">
     <img loading="lazy" class="about__item--img" src="img/atom.png" alt="">
     <p>React</p>
-  </div>`;
+  </div>
+  
+  <div class="about__item">
+        <img class="about__item--img" src="img/typescript.png" alt="">
+        <p>TypeScript</p>
+      </div>
+  
+  `;
 
   now.classList.remove("about__head--active");
   future.classList.remove("about__head--active");

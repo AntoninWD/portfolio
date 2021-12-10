@@ -351,13 +351,10 @@ body {
 
 .about__container {
   border: 2px solid #fd7a34;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
-  padding: 5rem;
+  padding: 3rem;
   width: 60%;
   -webkit-box-shadow: 3px 3px 5px #1b1b1b;
   box-shadow: 3px 3px 5px #1b1b1b;
